@@ -1,0 +1,30 @@
+@import url("reset.css");
+
+h1 {
+   color: black;
+}
+
+p {
+   color: red;
+}
+
+h3 {
+   color: blue;
+}
+
+.list {
+   color: green;
+}
+
+span {
+   color: brown;
+}
+
+a {
+   color: red;
+}
+
+li {
+   color: grey;
+}
+
