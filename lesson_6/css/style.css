@@ -1,0 +1,162 @@
+
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:600&display=swap");
+
+body {
+	font-family: "Inter", sans-serif;
+	color:#7d7d7d;
+	font-size: 18px;
+}
+
+.maket1 {
+	background-color: #FFF9F4;
+max-width: 1169px;
+margin: 0 auto;
+font-size: 0;
+}
+
+.info {
+	max-width: 563px;
+	display: inline-block;
+	margin-right: 38px;
+	padding-top: 21px;
+}
+
+.what {
+	font-family: Inter;
+	color: #D06B00;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-bottom: 13px;
+}
+
+.info-title	{
+	font-family: DM Serif Text;
+	color: #0E333D;
+	font-size: 59px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.46;
+	margin-bottom: 25px;
+}
+
+.info-text	{
+	font-family: Inter;
+	color: #474747;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.8;
+}
+
+.images {
+	max-width: 568px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 0;
+}
+
+.rectangle23 {
+	margin-right: 22px;
+}
+
+.rectangle22 {
+	vertical-align: top;
+}
+
+/* Макет 2 */
+
+.meeting {
+	padding: 50px 15px;
+	max-width: 722px;
+	margin: 0 auto;
+}
+
+.Imagemeeting {
+	margin-bottom: 37px;
+}
+
+.Why-us,
+.proactively,
+.title-benefits,
+.incubate,
+.faq {
+	font-family: "Poppins", sans-serif;
+}
+
+.Why-us,
+.faq {
+	color: #37393F;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 12.5px;
+}
+
+.wtext {
+	line-height: 1.46;
+	margin-bottom: 40px;
+}
+
+.wtext p,
+.ptext p,
+.faq-text p {
+	margin-bottom: 15px;
+}
+
+.ptext {
+	margin-bottom: 40px;
+}
+
+.proactively {
+	color: #6B77E5;
+	font-size: 20px;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.27;
+	margin-bottom: 12px;
+}
+
+.benefits {
+	font-size: 0;
+	margin-bottom: 48px;
+}
+
+.image-benefits {
+	width: 331px;
+	margin-right: 29px;
+}
+
+.content-benefits {
+	display: inline-block;
+	width: 332px;
+	font-size: 18px;
+}
+
+.title-benefits {
+	color: #37393F;
+	font-size: 25px;
+	line-height: 1.27;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.incubate {
+	color: #40DDB6;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 23.5px;
+}
+
+.list-benefits li {
+	margin-bottom: 20px;
+}
+
+.Imagemeeting,
+.image-benefits {
+max-width: 100%;
+}
