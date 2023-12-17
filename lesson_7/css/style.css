@@ -1,0 +1,554 @@
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+@font-face {
+	font-family: "Causten";
+	src:
+		url("../fonts/Causten-Regular.woff2") format("woff2"),
+		url("../fonts/Causten-Regular.woff") format("woff");
+		font-weight: 400;
+		font-style: normal;
+		font-display: swap;
+}
+
+@font-face {
+	font-family: "CoreSansC";
+	src:
+		url("../fonts/CoreSansC65BoldBold.woff2") format("woff2"),
+		url("../fonts/CoreSansC65BoldBold.woff") format("woff");
+		font-weight: 600;
+		font-style: normal;
+		font-display: swap;
+}
+
+/* <!-- Макет №1: WhiteCollar --> */
+
+body {
+	padding: 15px 35px 150px 35px;
+	max-width: 1288px;
+}
+
+.block {
+	max-width: 1218px;
+	margin: 0 auto;
+	font-size: 0;
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+.box {
+	width: 12px;
+	height: 12px;
+	background-color: #40DDB6;
+	display: inline-block;
+	margin-right: 6px;
+}
+
+.info {
+	display: inline-block;
+	max-width: 1218px;
+	color: #37393F;
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+h1 {
+	color: #37393F;
+	text-align: center;
+	font-family: Poppins;
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.21;
+	margin-bottom: 70px;
+}
+
+h3 {
+color: #37393F;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.21;
+margin-bottom: 11px;
+}
+
+h4 {
+	color: #37393F;
+	font-family: Poppins;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 8px;
+}
+
+.icons-text {
+	margin-bottom: 32px;
+}
+.photo-text,
+.pexel-text {
+	margin-bottom: 24px;
+}
+
+.icons-text,
+.photo-text,
+.pexel-text,
+.unsplash-text,
+.fonts-text {
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.46;
+	width: 1218px;
+}
+
+.icons-text,
+.photo-text,
+.fonts-text {
+	color: #7D7D7D;
+}
+
+.pexel-text,
+.unsplash-text {
+	color: #40DDB6;
+}
+
+.phosphor,
+.unsplash-text {
+	margin-bottom: 100px;
+}
+
+.mark {
+	color: #40DDB6;
+	font-family: Poppins;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	background-color: hsla(0, 0%, 99%, 0);
+}
+
+.mark2 {
+	color: #40DDB6;
+	font-family: Inter;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.46;
+}
+
+.icons,
+.photo {
+margin-bottom: 11px;
+}
+
+.border2 {
+	border-bottom: 3px dashed #f8c11f;
+	margin-top: 40px;
+}
+
+/* Макет №2: Project Information */
+
+h2 {
+	color: #37393F;
+	font-family: Poppins; serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.27;
+	margin-top: 50px;
+	margin-bottom: 13px;
+}
+
+.text-pi p {
+	font-family: Inter; serif;
+	color: #7D7D7D;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.46;
+	width: 830px;
+	margin-bottom: 35px;
+}
+
+.text-ul,
+.text-ol {
+	font-family: Inter; serif;
+	color: #7D7D7D;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.46;
+	margin-bottom: 35px;
+	margin-left: 16px;
+}
+
+.icons,
+.photo {
+margin-bottom: 11px;
+}
+
+.border2 {
+	border-bottom: 3px dashed #f8c11f;
+	margin-top: 40px;
+}
+
+/* Макет 3: Clothing for Women Online in India */
+
+.clothing {
+	max-width: 1240px;
+	margin: 0 auto;
+	font-size: 0;
+	margin-bottom: 30px;
+	margin-top: 40px;
+}
+
+.purple {
+	width: 6px;
+	height: 28px;
+	background-color: #8A33FD;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+.clothing-text {
+	font-family: CoreSansC;
+	color: #3C4242;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.19;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+h6 {
+	color: #807D7E;
+	font-family: CoreSansC;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.67;
+	margin-bottom: 25px;
+}
+
+p {
+	color: #807D7E;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.67;
+	margin-bottom: 20px;
+	width: 1219px;
+}
+
+.our-collection {
+	color: #807D7E;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.67;
+	margin-bottom: 25px;
+}
+
+.reexplore p,
+.one-stop p,
+.our-collection p {
+	font-family: Causten;
+}
+
+.border2 {
+	border-bottom: 3px dashed #f8c11f;
+	margin-top: 40px;
+}
+
+/* Макет 4: Jewels */
+
+.wwd-container {
+	/* padding: 100px; */
+	max-width: 1100px;
+	margin: 0 auto;
+	font-size: 0;
+	margin-top: 70px;
+	margin-bottom: 100px;
+}
+
+.wwd {
+	display: inline-block;
+	max-width: 503px;
+	margin-right: 75px;
+	vertical-align: middle;
+}
+
+.wwd-big {
+	font-family: Cormorant Infant;
+	color: #D58417;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1;
+	text-transform: uppercase;
+	/* __________отсебятина__________ */
+	margin-top: 80px; 
+	margin-bottom: 27px;
+}
+
+.wdccj {
+	color: #000;
+	font-family: Cormorant Infant;
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 1;
+	width: 503px;
+	height: 128px;
+}
+
+.wwd-text {
+	color: #606060;
+	font-family: Cormorant Infant;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.4;
+	margin-top: 31px;
+	width: 489px;
+	height: 174px;
+}
+
+.wpics__cover {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0;
+}
+
+.wpics {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.wpics img {
+	border-radius: 235px;
+}
+
+.wpics__first-image {
+	width: 177px;
+	height: 336px;
+	margin-right: 30px;
+	display: inline-block;
+	border: 1px solid #502203;
+	border-radius: 235px;
+	vertical-align: middle;
+}
+
+.wpics__first-image img {
+	width: 177px;
+	height: 336px;
+	margin-left: -10px;
+	padding-top: 14px;
+}
+
+.wpics__second-image {
+	width: 307px;
+	height: 500px;
+	display: inline-block;
+	border: 1px solid #502203;
+	border-radius: 235px;
+	vertical-align: middle;
+}
+
+.wpics__second-image img {
+	width: 307px;
+	height: 500px;
+	/* margin-left: -11px; */
+	margin: 3px 11px 12px -10px;
+	padding-top: 19px;
+	margin-bottom: 200px;
+}
+
+.f1 {
+
+}
+
+.f1,
+.f2,
+.f3,
+.f4 {
+	display: inline;
+	border: 1px outset #000;
+	border-radius: 25px;
+	margin-right: 100px;
+	padding: 6px
+}
+
+/* Отработка */
+
+.example {
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.b1 {
+	background-color: grey;
+	padding: 40px;
+	border: 10px solid yellowgreen;
+	width: 300px;
+	color: aliceblue;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 35px;
+}
+
+.b2 {
+	background-color: #D58417;
+	padding: 40px;
+	width: 300px;
+	border: 7px dotted blue;
+	color: aliceblue;
+	display: inline-block;
+	margin-right: 35px;
+}
+
+.b3 {
+	background-color: black;
+	padding: 40px;
+	width: 300px;
+	color: aliceblue;
+	display: inline-block;
+	border: 4px solid red;
+}
+
+.b3:hover {
+	border: 4px solid transparent;
+}
+
+.all {
+	padding: 20px;
+	width: 500px;
+	border-top: 5px solid #000;
+	border-right: 10px dashed red;
+	border-bottom: 15px solid rgb(6, 18, 243);
+	border-left: 15px dashed rgb(76, 250, 12);
+	margin-left: 250px;
+	color: #000;
+}
+
+.all a {
+	color: green;
+	border-bottom: 3px dotted;
+}
+
+.all:hover a{
+	color: red;
+}
+
+.arrow {
+	text-align: center;
+}
+
+.arrow-right {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid green;
+	border-bottom: 50px solid transparent;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.arrow-top {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-bottom: 100px solid brown;
+	border-right: 50px solid transparent;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.arrow-bottom {
+	width: 0;
+	height: 0;
+	border-top: 100px solid rgb(251, 152, 21);
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.arrow-left {
+	width: 0;
+	height: 0;
+	border-right: 100px solid red;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+
+.text-outline {
+	outline: 5px solid rgb(58, 58, 58);
+	background-color: rgb(250, 240, 96);
+	margin-top: 30px;
+	margin-left: 300px;
+	padding: 40px;
+	width: 400px;
+	margin-bottom: 30px;
+}
+
+.text-radius {
+	background-color: rgb(246, 125, 125);
+	border-radius: 10px 30px 10px 40px;
+	padding: 40px;
+	width: 400px;
+	margin-left: 300px;
+	margin-bottom: 30px;
+}
+
+.circle {
+	width: 300px;
+	height: 300px;
+	background-color: rgb(152, 206, 186);
+	border-radius: 50%;
+	margin-bottom: 30px;
+	margin-left: 300px;
+}
+
+.fancy {
+	width: 300px;
+	height: 300px;
+	background-color: rgb(248, 153, 74);
+	border-radius: 30% 70% 88% 12% / 86% 55% 45% 14%;
+	margin-left: 300px;
+	margin-bottom: 40px;
+}
+
+.shadow {
+	box-shadow: 
+	5px 10px 5px 5px black,
+	-5px -10px 5px 5px red;
+	background-color: rgb(219, 182, 250);
+	margin-bottom: 50px;
+}
+
+.shadow2 {
+	box-shadow: 
+	5px 10px 5px 5px black,
+	inset 0px 0px 10px 1px black;
+	background-color: rgb(219, 182, 250);
+	margin-bottom: 50px;
+	width: 400px;
+	padding: 20px;
+}
+
+.opacity {
+	opacity: 0.5;
+	background-color: rgb(219, 182, 250);
+	margin-bottom: 50px;
+	width: 400px;
+	padding: 20px;
+}
